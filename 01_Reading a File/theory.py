@@ -12,9 +12,9 @@ real_cool_document.txt
 Wowsers!
 
 We could read that file like this:
-"""
 
 script.py
+"""
 
 with open('real_cool_document.txt') as cool_doc:
   cool_contents = cool_doc.read()
@@ -28,22 +28,22 @@ Instructions
 Use with to open the file welcome.txt. Save the file object as text_file.
 
 Use this syntax to open a file:
-"""
+
 
 with open('filename.txt') as file_object:
   # indented block here
 
 
-"""
+
 2.
 
 Read the contents of text_file and save the results in text_data.
 
 Use this syntax on a file object to read the contents of the file into a variable:
 
-"""
+
 file_string = file_object.read()
-"""
+
 
 3.
 
