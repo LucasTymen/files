@@ -1,5 +1,5 @@
 """
-
+reference : https://docs.python.org/3/library/csv.html#id3
 Learn Python: Files
 Reading a CSV File
 
@@ -33,6 +33,7 @@ users.csv file with the temporary variable users_csv.
 
 We pass the additional keyword argument newline='' to the file opening open() function so that we don’t accidentally
 mistake a line break in one of our data fields as a new row in our CSV (read more about this in the Python documentation).
+link : https://docs.python.org/3/library/csv.html#id3
 
 After opening our new CSV file we use csv.DictReader(users_csv) which converts the lines of our CSV file to Python
 dictionaries which we can use access methods for. The keys of the dictionary are, by default, the entries in the first
